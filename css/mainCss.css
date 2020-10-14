@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+body
+{
+    background-color: rgb(12, 99, 99);
+}
+nav
+{
+    background-color: white;
+}
+li{
+    font-size: 2vw;
+}
+i{
+    font-size: 3vw;
+}
+.textLink{
+    font-size:1vw ;
+}
+
+/*
+* Link = couleur de base
+* Hover = quand la souris est sur le lien
+* Visited = si c'est pas la première fois qu'on click sur le lien
+
+a:link
+{
+    color : black !important; 
+}
+a:hover{
+ color: lightseagreen !important;
+}
+a:visited
+{
+    color: rgb(48, 46, 46);
+}
+*/
+
+
+a:link
+{
+    color : black !important; 
+
+}
+.textLink:hover{
+ color: lightseagreen !important;
+}
+
+.ContainMap
+{
+margin-top: 10%;
+margin-left: 25%;
+
+    border: black 1px solid;
+    width: 50vw;
+    height: 50vh;
+}
+
